@@ -42,6 +42,8 @@ perspectiveValue: string = '40px';
 
 ng-tilt-container will be sized depending on the content within the container.
 
+### License
+
 License: MIT
 
 Copyright (c) 2020 William Vandepeer
