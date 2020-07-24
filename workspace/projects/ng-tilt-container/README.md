@@ -1,0 +1,50 @@
+# NgTiltContainer
+
+Requires Angular 10.x
+
+## Install
+
+`npm install ng-tilt-container --save`
+
+```Typescript
+import { GridsterModule } from 'angular-gridster2';
+ 
+@NgModule({
+  imports: [ GridsterModule ],
+  ...
+})
+```
+Make sure to have rxjs ^6.5.5 installed in your node-modules
+
+## How to use
+
+```html
+  <ng-tilt-container
+    [updateRate]="number"
+    [transitionDuration]="string"
+    [perspectiveValue]="string">
+
+    <!-- your content goes here -->
+
+  </ng-tilt-container>
+```
+```Typescript
+updateRate: number = 10;
+transitionDuration: string = '400ms';
+perspectiveValue: string = '40px';
+```
+
+`updateRate`: Determines how many ticks of mouse movement it requires to update animation, lower = more updates
+
+`transitionDuration`: CSS value for length of animation, lower = quicker response when mouse moves
+
+`perspectiveValue`: CSS value for how strong the rotation will look when animation happens, lower = stronger rotation
+
+ng-tilt-container will be sized depending on the content within the container.
+
+License: MIT
+
+Copyright (c) 2020 William Vandepeer
+
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+

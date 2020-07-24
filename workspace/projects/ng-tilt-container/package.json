@@ -1,0 +1,14 @@
+{
+  "name": "ng-tilt-container",
+  "version": "0.0.1",
+  "author": "William Vandepeer",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^10.0.5",
+    "@angular/core": "^10.0.5",
+    "rxjs": "^6.5.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
