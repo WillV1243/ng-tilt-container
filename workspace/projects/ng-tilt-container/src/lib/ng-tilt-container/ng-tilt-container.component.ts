@@ -1,8 +1,8 @@
 // angular
-import { Component, OnInit, ViewChild, ElementRef, Input, OnDestroy, Output, EventEmitter, NgZone } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Input, OnDestroy, Output, EventEmitter } from '@angular/core';
 
 // models
-import { Mouse } from '../../models/mouse';
+import { Mouse } from '../models/mouse';
 
 // rxjs
 import { Observable, fromEvent, Subject } from 'rxjs';

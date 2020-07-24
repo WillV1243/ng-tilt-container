@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core';
 
 // components
-import { NgTiltContainerComponent } from './components';
+import { NgTiltContainerComponent } from './ng-tilt-container/ng-tilt-container.component';
 /* --------------------------------------------------------------------------------- */
 
 @NgModule({

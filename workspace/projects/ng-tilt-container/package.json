@@ -3,6 +3,24 @@
   "version": "0.0.1",
   "author": "William Vandepeer",
   "license": "MIT",
+  "description": "A component that provides a tilt animation when the user drags their cursor across the element",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillV1243/ng-tilt-container.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WillV1243/ng-tilt-container/issues"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "animation",
+    "angular2+",
+    "css",
+    "tilt",
+    "component"
+  ],
   "peerDependencies": {
     "@angular/common": "^10.0.5",
     "@angular/core": "^10.0.5",

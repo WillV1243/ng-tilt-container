@@ -7,10 +7,10 @@ Requires Angular 10.x
 `npm install ng-tilt-container --save`
 
 ```Typescript
-import { GridsterModule } from 'angular-gridster2';
+import { NgTiltContainerModule } from 'ng-tilt-container';
  
 @NgModule({
-  imports: [ GridsterModule ],
+  imports: [ NgTiltContainerModule ],
   ...
 })
 ```
