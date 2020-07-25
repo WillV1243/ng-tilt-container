@@ -47,7 +47,7 @@ ng-tilt-container will be sized depending on the content within the container.
 
 `[transitionDuration]` CSS value for length of animation, lower = quicker response when mouse moves
 
-`[perspectiveValue]` CSS value for how strong the rotation will look when animation happens, lower = stronger rotation
+`[perspectiveValue]` CSS value for how strong the rotation will look when animation happens, lower = stronger
 
 ## Outputs
 
