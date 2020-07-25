@@ -43,19 +43,19 @@ ng-tilt-container will be sized depending on the content within the container.
 
 ## Inputs
 
-`[updateRate]`: Determines how many ticks of mouse movement it requires to update animation, lower = more updates
+`[updateRate]` Determines how many ticks of mouse movement it requires to update animation, lower = more updates
 
-`[transitionDuration]`: CSS value for length of animation, lower = quicker response when mouse moves
+`[transitionDuration]` CSS value for length of animation, lower = quicker response when mouse moves
 
-`[perspectiveValue]`: CSS value for how strong the rotation will look when animation happens, lower = stronger rotation
+`[perspectiveValue]` CSS value for how strong the rotation will look when animation happens, lower = stronger rotation
 
 ## Outputs
 
-`(mouseEnter)`: Event emited when cursor enters ng-tilt-container
+`(mouseEnter)` Event emited when cursor enters ng-tilt-container
 
-`(mouseLeave)`: Event emited when cursor leaves ng-tilt-container
+`(mouseLeave)` Event emited when cursor leaves ng-tilt-container
 
-`(mouseMove)`: Event emited when cursor moves within ng-tilt-container
+`(mouseMove)` Event emited when cursor moves within ng-tilt-container
 
 ## License
 
