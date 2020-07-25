@@ -35,13 +35,12 @@ export class NgTiltContainerComponent implements OnInit, OnDestroy {
   private mouse: Mouse = new Mouse;
 
   /* Misc properties */
-  private eventOptions: boolean | { capture: boolean, passive: boolean };
   private unsubscriber = new Subject<any>();
 
   /* Observables */
-  public onMouseMove$: Observable<MouseEvent>;
-  public onMouseEnter$: Observable<MouseEvent>;
-  public onMouseLeave$: Observable<MouseEvent>;
+  private onMouseMove$: Observable<MouseEvent>;
+  private onMouseEnter$: Observable<MouseEvent>;
+  private onMouseLeave$: Observable<MouseEvent>;
 
   constructor() { }
 

@@ -24,7 +24,10 @@ Make sure to have rxjs ^6.5.5 installed in your node-modules
   <ng-tilt-container
     [updateRate]="number"
     [transitionDuration]="string"
-    [perspectiveValue]="string">
+    [perspectiveValue]="string"
+    (mouseEnter)="$event"
+    (mouseLeave)="$event"
+    (mouseMove)="$event">
 
     <!-- your content goes here -->
 
@@ -36,13 +39,23 @@ transitionDuration: string = '400ms';
 perspectiveValue: string = '40px';
 ```
 
+ng-tilt-container will be sized depending on the content within the container.
+
+## Inputs
+
 `updateRate`: Determines how many ticks of mouse movement it requires to update animation, lower = more updates
 
 `transitionDuration`: CSS value for length of animation, lower = quicker response when mouse moves
 
 `perspectiveValue`: CSS value for how strong the rotation will look when animation happens, lower = stronger rotation
 
-ng-tilt-container will be sized depending on the content within the container.
+## Outputs
+
+`mouseEnter`: Event emited when cursor enters ng-tilt-container
+
+`mouseLeave`: Event emited when cursor leaves ng-tilt-container
+
+`mouseMove`: Event emited when cursor moves within ng-tilt-container
 
 ### License
 
