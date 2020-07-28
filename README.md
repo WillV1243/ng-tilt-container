@@ -2,7 +2,7 @@
 
 Requires Angular 10.x
 
-![Demo gif of ng-tilt-container](https://github.com/WillV1243/ng-tilt-container/blob/master/workspace/projects/ng-tilt-container/src/assets/demo.gif)
+![Demo gif of ng-tilt-container](https://i.imgur.com/VGiMMP9.gif)
 
 ## Install
 

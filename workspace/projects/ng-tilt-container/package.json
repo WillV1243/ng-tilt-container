@@ -1,6 +1,6 @@
 {
   "name": "ng-tilt-container",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "William Vandepeer",
   "license": "MIT",
   "description": "A component that provides a tilt animation when the user drags their cursor across the element",
